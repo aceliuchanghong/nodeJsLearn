@@ -14,7 +14,7 @@ app.get('/0', (req, res) => {
 })
 
 //connect mongodb
-db.connect()
+// db.connect()
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
